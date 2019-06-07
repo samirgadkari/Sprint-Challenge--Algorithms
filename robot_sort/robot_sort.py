@@ -155,7 +155,7 @@ class SortingRobot:
                         self.swap_item()  # Now robot holds 'None'
                     move_leftmost_position()
 
-            while list_sorted() == False:
+            while list_sorted() is False:
                 one_pass()
 
         bubble_sort()
